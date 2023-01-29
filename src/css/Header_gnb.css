@@ -1,0 +1,42 @@
+ul, ol, li {
+  list-style: none;
+}
+
+.gnb_big {
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  position: relative;
+}
+.gnb_big > li {
+  width: 150px;
+  font-size: 1rem;
+  padding-bottom: 1.2rem;
+  cursor: pointer;
+}
+.gnb_big > li a {
+  text-decoration: none;
+}
+.gnb_big > li:hover {
+  color: orange;
+}
+.gnb_big > li a:hover {
+  color: orange;
+}
+
+.gnb_small > ul {
+  position: absolute;
+  width: 150px;
+}
+.gnb_small > ul > li a {
+  display: block;
+  color: #aaa;
+  background-color: white;
+  padding: 2px 0;
+  text-decoration: none;
+}
+.gnb_small > ul > li a:hover {
+  text-decoration: underline;
+  color: #aaa;
+}
